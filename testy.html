@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: red;
+color: white;
+font-family: sans-serif;
+
+
+
+}
+h1 {
+    color:black;
+    text-transform:capitalize
+;
+}
+#bronny{
+    position: absolute;
+    top: 200px;
+}
+
+
+</style>
+
+
+
+<title> lets go hog rider</title>
+</head>
+<body>
+
+<h1>jij denk da</h1>
+<h5>My first jij denk da.</h5>
+<ul>
+
+<li>zot zeker</li>
+<li>among us</li>     
+<li>jij denk da</li> 
+<li>kleine jongetje</li> 
+<li>mariooooo </li>           
+<li>riiiiiiiii   </li>
+</ul>
+    <img style="float:right" src="unreadable.jpg" width="400"/>
+<img id="bronny" src="lebronny.png"/>
+
+
+
+
+
+
+
+<script language="javascript">
+const bronny=document.getElementById("bronny")
+let topppp=0
+let direction="down"
+
+setInterval(() => {
+    bronny.style.top=topppp+"px"
+    if (direction=="down") {
+        topppp=topppp+10
+    } else {
+        topppp=topppp-10
+    }
+    if(topppp>500) direction="up"
+    if (topppp<=0) direction="down"
+}, 100);
+
+
+
+
+
+
+</script>
+</body>
+</html>
